@@ -1,0 +1,64 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+}
+
+html{
+  box-sizing: border-box;
+}
+
+
+body {
+  display: grid;
+  place-content: center;
+  gap: 20px;
+  justify-items: center;
+  min-height: 100vh;
+  background: linear-gradient(
+    to top left,
+    rgb(206, 245, 123),
+    rgb(152, 239, 190),
+    rgb(203, 152, 239),
+    rgb(152, 217, 239),
+    rgb(239, 185, 152),
+    rgb(239, 152, 177),
+    rgb(166, 152, 239),
+    rgb(200, 233, 146),
+    rgb(245, 231, 123)
+  );
+}
+
+.div1 {
+  letter-spacing: 40px;
+}
+
+
+.div2 {
+  height: 500px;
+  width: 600px;
+  border: solid;
+  border: none;
+  border-radius: 20px;
+  background-color: rgb(255, 247, 175);
+  box-shadow: 10px 15px 30px 10px rgb(128, 128, 128);
+  position: relative;
+}
+
+.button {
+  font-size: x-large;
+  font-weight: bolder;
+  height: 60px;
+  cursor: pointer;
+  color: gray;
+  border: none;
+  border-radius: 20px;
+  background-color: rgb(255, 247, 175);
+  box-shadow: 5px 10px 20px 4px rgb(128, 128, 128);
+}
+
+.cross {
+  position: absolute;
+  right: 10px;
+  font-size: 40px;
+  cursor: pointer;
+}
